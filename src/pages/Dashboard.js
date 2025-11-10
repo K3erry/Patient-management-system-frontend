@@ -12,7 +12,7 @@ export default function Dashboard() {
   const [activeFilter, setActiveFilter] = useState('all');
 
   // API Base URL for production
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   const fetchDashboardData = async () => {
     try {
