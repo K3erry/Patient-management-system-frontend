@@ -6,7 +6,7 @@ export default function AdminLogin() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   const handleAdminLogin = async (e) => {
     e.preventDefault();

@@ -10,7 +10,7 @@ export default function Appointments() {
   const { user } = useAuth();
 
   // API Base URL
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   // New appointment form state
   const [newAppointment, setNewAppointment] = useState({

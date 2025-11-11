@@ -33,7 +33,7 @@ export default function Reports() {
   const [reportData, setReportData] = useState(null);
 
   // API Base URL
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   const fetchReportData = async (reportType) => {
     setLoading(true);

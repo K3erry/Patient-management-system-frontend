@@ -13,7 +13,7 @@ export default function AdminDashboard() {
   const adminUser = JSON.parse(localStorage.getItem('adminUser') || '{}');
   const adminToken = localStorage.getItem('adminToken');
 
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   // Mock data to show while backend is deploying
   const mockData = {

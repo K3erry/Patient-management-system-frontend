@@ -10,7 +10,7 @@ export default function Medications() {
   const { user } = useAuth();
 
   // API Base URL for production
-  const API_BASE_URL = 'https://patient-management-system-in-python.onrender.com/api';
+  const API_BASE_URL = 'https://patient-management-system-backend-oetw.onrender.com/';
 
   // New medication form
   const [newMedication, setNewMedication] = useState({
