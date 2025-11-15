@@ -35,7 +35,7 @@ export default function Login() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #667eea 0%, #112bebff 100%)',
       padding: '20px'
     } 
   },
@@ -55,7 +55,7 @@ export default function Login() {
             color: 'var(--text)',
             marginBottom: '8px'
           } 
-        }, 'Nivlek Hospital Patient Management System'),
+        }, 'Patient Management System'),
         React.createElement('p', { 
           style: { 
             color: 'var(--text-light)',
