@@ -27,6 +27,7 @@ export default function Patients() {
   });
 
   const fetchPatients = async () => {
+
     setLoading(true);
     setError('');
     try {
